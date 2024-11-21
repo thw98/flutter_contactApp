@@ -6,7 +6,7 @@ class AuthManager {
   static Future<void> logout(BuildContext context) async {
     // Clear stored login data
     SharedPreferences prefs = await SharedPreferences.getInstance();
-    await prefs.remove('isLoggedIn');
+    await prefs.clear();
 
     // Navigate to the LoginPage
     Navigator.pushReplacement(

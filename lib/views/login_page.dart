@@ -1,4 +1,5 @@
 import 'package:contact_app/widgets/custom_button.dart';
+import 'package:contact_app/widgets/custom_text_field.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../utils/app_colors.dart';
@@ -39,23 +40,12 @@ class LoginPage extends StatelessWidget {
                     ),
                   ),
                   const SizedBox(height: 30),
-                  TextUtils.addAsterisk('User ID'),
-                  const SizedBox(height: 8),
-                  TextField(
+
+                  CustomTextField(
+                    label: "User ID",
                     controller: _userIdController,
-                    decoration: InputDecoration(
-                      labelStyle: const TextStyle(color: AppColors.blue),
-                      prefixIcon: const Icon(Icons.person_2_outlined, color: AppColors.blue),
-                      border: OutlineInputBorder(
-                        borderRadius: BorderRadius.circular(8),
-                        borderSide: const BorderSide(color: AppColors.blue),
-                      ),
-                      focusedBorder: OutlineInputBorder(
-                        borderRadius: BorderRadius.circular(8),
-                        borderSide: const BorderSide(color: AppColors.blue),
-                      ),
-                    ),
-                  ),
+                    leading: Icons.person_2_outlined,
+                    isRequired: true),
                   if (viewModel.errorMessage != null) ...[
                     const SizedBox(height: 10),
                     Text(

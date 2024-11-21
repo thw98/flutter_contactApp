@@ -41,6 +41,14 @@ class CustomTextField extends StatelessWidget {
               borderSide: BorderSide(width: 0.5, color: AppColors.blue),
               borderRadius: BorderRadius.circular(8),
             ),
+            focusedBorder: OutlineInputBorder(
+              borderSide: BorderSide(width: 1.0, color: AppColors.blue),
+              borderRadius: BorderRadius.circular(8),
+            ),
+            errorBorder: OutlineInputBorder(
+              borderSide: BorderSide(width: 1.0, color: AppColors.red),
+              borderRadius: BorderRadius.circular(8),
+            ),
             prefixIcon: leading != null
                 ? Icon(leading, color: AppColors.blue)
                 : null,
