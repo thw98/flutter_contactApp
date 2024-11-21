@@ -15,20 +15,21 @@ A Simple contact app using Flutter
 
 
 ## Screenshot
-- Login Page
-![img_3.png](Screenshot_Login.png)
 
-- Home Page
-![img_5.png](Screenshot_List.png)
+- **Login Page**  
+  <img src="Screenshot_Login.png" alt="Login Page" width="300">
 
-- Profile Page
-![img_4.png](Screenshot_Profile.png)
+- **Home Page**  
+  <img src="Screenshot_List.png" alt="Home Page" width="300">
 
-- Search Result
-![img_6.png](Screenshot_Search.png)
+- **Profile Page**  
+  <img src="Screenshot_Profile.png" alt="Profile Page" width="300">
 
-- Edit Contact Page
-![img_7.png](Screenshot_Edit.png)
+- **Search Result**  
+  <img src="Screenshot_Search.png" alt="Search Result" width="300">
 
-- Add Contact Page
-![img_8.png](Screenshot_Add.png)
+- **Edit Contact Page**  
+  <img src="Screenshot_Edit.png" alt="Edit Contact Page" width="300">
+
+- **Add Contact Page**  
+  <img src="Screenshot_Add.png" alt="Add Contact Page" width="300">
