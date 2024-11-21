@@ -1,16 +1,34 @@
 # contact_app
 
-A new Flutter project.
+## Description
+A Simple contact app using Flutter
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## Development Environment
 
-A few resources to get you started if this is your first Flutter project:
+- **Operating System**: macOS Sequoia 15.0.1
+- **Flutter Version**: 3.22.2 • channel stable
+- **Dart Version**: 3.4.3
+- **IDE**: Android Studio Koala
+- **Device for Testing**: Pixel 8 Pro API 34 Emulator
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Screenshot
+- Login Page
+![img_3.png](Screenshot_Login.png)
+
+- Home Page
+![img_5.png](Screenshot_List.png)
+
+- Profile Page
+![img_4.png](Screenshot_Profile.png)
+
+- Search Result
+![img_6.png](Screenshot_Search.png)
+
+- Edit Contact Page
+![img_7.png](Screenshot_Edit.png)
+
+- Add Contact Page
+![img_8.png](Screenshot_Add.png)
